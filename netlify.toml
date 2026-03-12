@@ -1,0 +1,6 @@
+[build]
+  command = "npm run netlify-build"
+  publish = "web-build"
+
+[build.environment]
+  EXPO_NO_TELEMETRY = "1"
